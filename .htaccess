@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine on
+
+ErrorDocument 404 http://www.travaweb.com
+
+Options All -Indexes
+
+</IfModule>
+

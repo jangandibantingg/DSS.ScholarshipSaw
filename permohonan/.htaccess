@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine on
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?hal=$1 [L]
+
+
+Options All -Indexes
+
+</IfModule>
+
